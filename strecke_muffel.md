@@ -6,3 +6,9 @@ Region - Nord
 |------|--------|--------|--------|------|-----------|------|------|
 |KYF   |3       |7       |3       |13    |10         |12    |48    |
 
+
+
+
+<img width="851" alt="Bildschirmfoto 2023-09-03 um 08 13 55" src="https://github.com/Projekt-cloud/Kyffhaeuser-Jagd/assets/132254149/62486a44-8828-4e75-bf5b-af66c25b0e8a">
+
+ 
