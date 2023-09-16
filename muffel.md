@@ -1,7 +1,7 @@
 Jagdstrecke 2012 bis 2021
 ================
 
-## Muffelwild
+## Muffelwild [^1]
 
 ### Privatjagden
 
@@ -36,3 +36,5 @@ Jagdstrecke 2012 bis 2021
 ![](muffel_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ![](muffel_files/figure-gfm/pressure1-1.png)<!-- -->
+
+[^1]: Quelle: F. Herrmann LJV-Thüringen
