@@ -1,4 +1,4 @@
-Jagdstrecke 2012 bis 2021
+Jagdstrecke 2007 bis 2021
 ================
 
 ## Muffelwild [^1]
@@ -22,9 +22,9 @@ Jagdstrecke 2012 bis 2021
     ## 14    8        1031
     ## 15    7         743
 
-    ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
-
 ![](muffel_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+![](muffel_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ![](muffel_files/figure-gfm/pressure-1.png)<!-- -->
 
@@ -47,13 +47,9 @@ Jagdstrecke 2012 bis 2021
     ## 14    8     239
     ## 15    7     198
 
-    ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
-
-![](muffel_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
-
-    ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
-
 ![](muffel_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+![](muffel_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ![](muffel_files/figure-gfm/pressure1-1.png)<!-- -->
 

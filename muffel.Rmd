@@ -1,5 +1,5 @@
 ---
-title: "Jagdstrecke 2012 bis 2021"
+title: "Jagdstrecke 2007 bis 2021"
 output: github_document
 ---
 
@@ -28,8 +28,18 @@ ggplot(df1) +
   aes(y = Jagdstrecke,
       x = Jahr) +
   geom_point(shape = 21, size = 2, fill = "lightgreen") + 
-  geom_smooth(col='red', linewidth=0.4 )
+  geom_smooth(formula = y ~ x, method = "loess", col='blue', linewidth=0.4,)
+```
 
+```{r echo=FALSE}
+library(ggplot2)
+
+
+ggplot(df1) +
+  aes(y = Jagdstrecke,
+      x = Jahr) +
+  geom_point(shape = 21, size = 2, fill = "lightgreen") + 
+  geom_smooth(formula = y ~ x, method = "lm", col='blue', linewidth=0.4,)
 ```
 
 ```{r pressure, echo=FALSE}
@@ -55,7 +65,7 @@ ggplot(df) +
   aes(x=Jahr, 
       y=Strecke) +
     geom_point(shape = 21, size = 2, fill = "blue") +
-    geom_smooth(col='red', linewidth=0.4 )
+    geom_smooth(formula = y ~ x, method = "loess", col='red', linewidth=0.4,)
 ```
 
 ```{r echo=FALSE}
@@ -65,8 +75,8 @@ library(ggplot2)
 ggplot(df) +
   aes(y = Strecke,
       x = Jahr) +
-  geom_point(shape = 21, size = 2, fill = "blue") +
-  geom_smooth(col='red', linewidth=0.4 )
+  geom_point(shape = 21, size = 1, fill = "blue") +
+  geom_smooth(formula = y ~ x, method = "lm", col='red', linewidth=0.4,)
 
 
 ```
