@@ -13,10 +13,10 @@ output: github_document
 ### Privatjagden
 
 ```{r Muffel, echo=FALSE}
-x <- c("2020/2021", "2019/2020", "2018/2019", "2017/2018", "2016/2017", "2015/2016", "2014/2015", "2013/2014", "2012/2013")
-y <- c(1581, 1226, 1201, 1180, 1250, 1232, 1302, 1095, 941)
-dat <- data.frame(Jahr = x, Jagdstrecke = y)
-dat
+x <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
+y <- c(1581, 1226, 1201, 1180, 1250, 1232, 1302, 1095, 941, 1004, 1212, 1052, 1104, 1031, 743 )
+df1 <- data.frame(Jahr = x, Jagdstrecke = y)
+df1
 
 ```
 
@@ -24,15 +24,16 @@ dat
 library(ggplot2)
 
 
-ggplot(dat) +
+ggplot(df1) +
   aes(y = Jagdstrecke,
       x = Jahr) +
-  geom_point(shape = 21, size = 2, fill = "lightgreen") 
+  geom_point(shape = 21, size = 2, fill = "lightgreen") + 
+  geom_smooth(col='red', linewidth=0.4 )
 
 ```
 
 ```{r pressure, echo=FALSE}
-boxplot(dat$Jagdstrecke, col="green")
+boxplot(df1$Jagdstrecke, col="green")
 
 
 ```
@@ -40,26 +41,38 @@ boxplot(dat$Jagdstrecke, col="green")
 ### Fiskus
 
 ```{r Muffel1, echo=FALSE}
-x <- c("2020/2021", "2019/2020", "2018/2019", "2017/2018", "2016/2017", "2015/2016", "2014/2015", "2013/2014", "2012/2013")
-y <- c(244, 242, 209, 252, 226, 203, 615, 215, 215)
-data <- data.frame(Jahr = x, Strecke = y)
-data
+x <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
+y <- c(244, 242, 209, 252, 226, 203, 615, 215, 215, 244, 231, 281, 235, 239, 198)
+df <- data.frame(Jahr = x, Strecke = y)
+df
 
+```
+
+```{r echo=FALSE}
+
+
+ggplot(df) +
+  aes(x=Jahr, 
+      y=Strecke) +
+    geom_point(shape = 21, size = 2, fill = "blue") +
+    geom_smooth(col='red', linewidth=0.4 )
 ```
 
 ```{r echo=FALSE}
 library(ggplot2)
 
 
-ggplot(data) +
+ggplot(df) +
   aes(y = Strecke,
       x = Jahr) +
-  geom_point(shape = 21, size = 2, fill = "blue") 
+  geom_point(shape = 21, size = 2, fill = "blue") +
+  geom_smooth(col='red', linewidth=0.4 )
+
 
 ```
 
 ```{r pressure1, echo=FALSE}
-boxplot(data$Strecke, col="blue")
+boxplot(df$Strecke, col="blue")
 
 
 ```
