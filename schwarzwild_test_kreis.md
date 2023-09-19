@@ -24,3 +24,13 @@ pie(table(df2$Jagdstrecke1), clockwise=TRUE, col=c("burlywood", "chartreuse", "g
 ```
 
 ![](schwarzwild_test_kreis_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+``` r
+barplot(table(df2$Jagdstrecke1),
+horiz=TRUE,
+col=rainbow(12),
+# Legende aus Faktorenlevels
+legend.text = levels(df2$Jahr1))
+```
+
+![](schwarzwild_test_kreis_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->

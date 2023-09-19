@@ -2,6 +2,7 @@
 title: "Untitled"
 output: github_document
 ---
+
 ```{r Muffel, echo=FALSE}
 
 x <- c(29945, 32420, 37924, 23629, 34672, 24875, 25849, 21136, 19457, 31712, 16974, 23761, 16730, 25422, 18403 )
@@ -15,4 +16,12 @@ df2
 ```{r}
 library(ggplot2)
 pie(table(df2$Jagdstrecke1), clockwise=TRUE, col=c("burlywood", "chartreuse", "grey", "yellow", "green", "brown2", "lightgrey", "lightpink2", "lightsalmon3", "lightskyblue3"))
+```
+
+```{r}
+barplot(table(df2$Jahr1),
+horiz=TRUE,
+col=rainbow(12),
+# Legende aus Faktorenlevels
+legend.text = levels(df2$Jagdstrecke1))
 ```
