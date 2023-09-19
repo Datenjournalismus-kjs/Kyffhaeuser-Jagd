@@ -1,7 +1,8 @@
 [Impressum](https://kyffhaeuser-jagdblog.de/impressum/) [Datenschutz](https://kyffhaeuser-jagdblog.de/datenschutz/)
 
-![1](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/6f2278dc-2606-4368-844b-fa46fc13a82e)
-![2](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/c5be23a4-5622-498d-8d4f-9250cc013a8c)
+![1](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/70c23cf5-886a-424b-a111-2bafd6fb9026)
+![2](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/802b1dc0-d1b2-46c9-be20-c43fe0f924c0)
+
 
 ## Jagdstrecken
 
