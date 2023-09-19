@@ -1,4 +1,4 @@
-*Übersicht*
+
 
 ## Jagdstrecken
 
