@@ -85,17 +85,4 @@ ggplot(df) +
 boxplot(df$Strecke, col="blue")
 ```
 
-```{r include=FALSE}
 
-x1 <- c(29945, 32420, 37924, 23629, 34672, 24875, 25849, 21136, 19457, 31712, 16974, 23761, 16730, 25422, 18403 )
-y1 <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
-
-df2 <- data.frame(Jagdstrecke1 = x1, Jahr1 = y1)
-df2
-
-```
-
-```{r}
-library(ggplot2)
-pie(df2$Jagdstrecke1)
-```
