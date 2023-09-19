@@ -3,7 +3,7 @@ Impressum Datenschutz
 ## Jagdstrecken
 
 
-### [Muffelwild](strecke_muffel.md)
+### [Muffelwild 2021/2022 KYF](strecke_muffel.md)
 
 ### [Schwarzwild](schwarzwild.md)
 
