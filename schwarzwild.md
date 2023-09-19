@@ -53,11 +53,4 @@ Jagdstrecke 2007 bis 2021
 
 ![](schwarzwild_files/figure-gfm/pressure1-1.png)<!-- -->
 
-``` r
-library(ggplot2)
-pie(df2$Jagdstrecke1)
-```
-
-![](schwarzwild_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
-
 [^1]: Quelle: F. Herrmann LJV-Thüringen
