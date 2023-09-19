@@ -1,0 +1,88 @@
+---
+title: "Jagdstrecke 2007 bis 2021"
+output: github_document
+---
+
+```{r setup, echo=FALSE}
+```
+
+## Muffelwild [^1]
+
+[^1]: Quelle: F. Herrmann LJV-Thüringen
+
+### Privatjagden
+
+```{r Muffel, echo=FALSE}
+x <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
+y <- c(1581, 1226, 1201, 1180, 1250, 1232, 1302, 1095, 941, 1004, 1212, 1052, 1104, 1031, 743 )
+df1 <- data.frame(Jahr = x, Jagdstrecke = y)
+df1
+
+```
+
+```{r echo=FALSE}
+library(ggplot2)
+
+
+ggplot(df1) +
+  aes(y = Jagdstrecke,
+      x = Jahr) +
+  geom_point(shape = 21, size = 2, fill = "lightgreen") + 
+  geom_smooth(formula = y ~ x, method = "loess", col='blue', linewidth=0.4,)
+```
+
+```{r echo=FALSE}
+library(ggplot2)
+
+
+ggplot(df1) +
+  aes(y = Jagdstrecke,
+      x = Jahr) +
+  geom_point(shape = 21, size = 2, fill = "lightgreen") + 
+  geom_smooth(formula = y ~ x, method = "lm", col='blue', linewidth=0.4,)
+```
+
+```{r pressure, echo=FALSE}
+boxplot(df1$Jagdstrecke, col="green")
+
+
+```
+
+### Fiskus
+
+```{r Muffel1, echo=FALSE}
+x <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
+y <- c(244, 242, 209, 252, 226, 203, 615, 215, 215, 244, 231, 281, 235, 239, 198)
+df <- data.frame(Jahr = x, Strecke = y)
+df
+
+```
+
+```{r echo=FALSE}
+
+
+ggplot(df) +
+  aes(x=Jahr, 
+      y=Strecke) +
+    geom_point(shape = 21, size = 2, fill = "blue") +
+    geom_smooth(formula = y ~ x, method = "loess", col='red', linewidth=0.4,)
+```
+
+```{r echo=FALSE}
+library(ggplot2)
+
+
+ggplot(df) +
+  aes(y = Strecke,
+      x = Jahr) +
+  geom_point(shape = 21, size = 1, fill = "blue") +
+  geom_smooth(formula = y ~ x, method = "lm", col='red', linewidth=0.4,)
+
+
+```
+
+```{r pressure1, echo=FALSE}
+boxplot(df$Strecke, col="blue")
+
+
+```
