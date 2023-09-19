@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+output: github_document
+---
+```{r Muffel, echo=FALSE}
+
+x <- c(29945, 32420, 37924, 23629, 34672, 24875, 25849, 21136, 19457, 31712, 16974, 23761, 16730, 25422, 18403 )
+y <- c(21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 09, 08, 07)
+
+df2 <- data.frame(Jagdstrecke1 = x, Jahr1 = y)
+df2
+
+```
+
+```{r}
+library(ggplot2)
+pie(table(df2$Jagdstrecke1), clockwise=TRUE, col=c("burlywood", "chartreuse", "grey", "yellow", "green", "brown2", "lightgrey", "lightpink2", "lightsalmon3", "lightskyblue3"))
+```
