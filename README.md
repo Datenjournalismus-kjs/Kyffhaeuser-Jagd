@@ -1,8 +1,5 @@
 
-<<<<<<< HEAD
-=======
-  
->>>>>>> 5446e567bc47c8f7bfbbe55cbf11d523f0facdde
+
 
   
 ###### [Impressum](https://kyffhaeuser-jagdblog.de/impressum/) [Datenschutz](https://kyffhaeuser-jagdblog.de/datenschutz/)
@@ -15,10 +12,6 @@
 ![boar-38001_640](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/0c7db4c7-b78a-4012-b2fd-d655414bc0ff)
 
   
-<<<<<<< HEAD
-
-=======
->>>>>>> 5446e567bc47c8f7bfbbe55cbf11d523f0facdde
 
 
 # Jagdstrecken 
@@ -31,10 +24,5 @@
 
 #### [Muffelwild](muffel.md)
 
-<<<<<<< HEAD
 ### [Rehwild]
-=======
- 
-
->>>>>>> 5446e567bc47c8f7bfbbe55cbf11d523f0facdde
 
