@@ -12,18 +12,18 @@
 ![boar-38001_640](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/0c7db4c7-b78a-4012-b2fd-d655414bc0ff)
 
   
-<div align="center">
+
 
 # Jagdstrecken 
 
 
 
-### [Muffelwild 2021/2022 KYF](strecke_muffel.md)
+#### [Muffelwild 2021/2022 KYF](strecke_muffel.md)
 
-### [Schwarzwild](schwarzwild.md)
+#### [Schwarzwild](schwarzwild.md)
 
-### [Muffelwild](muffel.md)
+#### [Muffelwild](muffel.md)
 
-  </div>
+ 
 
 
