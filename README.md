@@ -1,6 +1,10 @@
 <div align="center">
   
-[Impressum](https://kyffhaeuser-jagdblog.de/impressum/) [Datenschutz](https://kyffhaeuser-jagdblog.de/datenschutz/)
+
+  
+###### [Impressum](https://kyffhaeuser-jagdblog.de/impressum/) [Datenschutz](https://kyffhaeuser-jagdblog.de/datenschutz/)
+
+
 
 ![elk-48320_640](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/a1dd9220-5daa-440e-a46f-36552fd94a9c)
 ![ram-47855_1280](https://github.com/Datenjournalismus-kyff/Kyffhaeuser-Jagd/assets/132254149/49d264fc-4185-4bb6-8c51-f482a7c39c27)
