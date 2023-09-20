@@ -12,7 +12,3 @@
 
 ### [Rehwild]
 
-<div class="cookiebanner">
-    <span>Message. <a rel="noopener noreferrer" href=".." target="_blank">Learn more</a></span>
-    <div class="cookiebanner-close" style="float: right; padding-left:7px;">&#10006;</div>
-</div>
