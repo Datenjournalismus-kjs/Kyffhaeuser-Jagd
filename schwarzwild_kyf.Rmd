@@ -23,7 +23,7 @@ m <-sum(d7$Jagdstrecke)
 print(m)
 ```
 
-```{r}
+```{r echo=FALSE}
 library(ggplot2)
 ggplot(d7, aes(Bezeichnung, Jagdstrecke)) +
   geom_point(shape = 21, size = 3, fill = "lightgreen") 
@@ -33,6 +33,6 @@ ggplot(d7, aes(Bezeichnung, Jagdstrecke)) +
     
 ```
 
-```{r}
+```{r echo=FALSE}
 boxplot(d7$Jagdstrecke, col="lightgreen")
 ```
