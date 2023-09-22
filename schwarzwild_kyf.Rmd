@@ -1,0 +1,38 @@
+---
+title: "Schwarzwild KYF"
+output: github_document
+---
+
+```{r echo=FALSE}
+library(ggplot2)
+d7 <- data.frame(Bezeichnung=c("Keiler", "Bachen", "Überläufer", "Frischlinge"),
+                 Jagdstrecke=c(128, 72, 899, 683)
+
+                 )
+                   
+d7
+```
+
+$$
+\sum Jagdstrecke
+$$
+
+```{r echo=FALSE}
+message("Gesamtstrecke")
+m <-sum(d7$Jagdstrecke)
+print(m)
+```
+
+```{r}
+library(ggplot2)
+ggplot(d7, aes(Bezeichnung, Jagdstrecke)) +
+  geom_point(shape = 21, size = 3, fill = "lightgreen") 
+  
+        
+  
+    
+```
+
+```{r}
+boxplot(d7$Jagdstrecke, col="lightgreen")
+```
