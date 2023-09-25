@@ -8,6 +8,6 @@
 
 #### [Schwarzwild 20121/2022 KYF](schwarzwild_kyf.md)
 
-#### [Schwarzwild](schwarzwild.md)
+#### [Schwarzwild 2007 - 2021](schwarzwild.md)
 
-#### [Muffelwild](muffel.md)
+#### [Muffelwild 2007 - 2021](muffel.md)
